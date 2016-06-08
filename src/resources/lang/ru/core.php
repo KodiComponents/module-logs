@@ -20,6 +20,9 @@ return [
         'download' => 'Скачать',
     ],
     "message" => [
-        'log_type_must_be_daily' => 'Для работы модуля необходимо установить значение `APP_LOG=daily`.'
-    ]
+        'log_type_must_be_daily' => 'Для работы модуля необходимо установить значение `APP_LOG=daily`.',
+    ],
+    'widget' => [
+        'title' => 'Логи',
+    ],
 ];
