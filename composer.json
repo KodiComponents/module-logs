@@ -1,0 +1,30 @@
+{
+  "name": "kodicms/logs",
+  "type": "kodicms-module",
+  "description": "The official KodiCMS logs module",
+  "homepage": "http://www.kodicms.com/",
+  "license": "MIT",
+  "keywords": ["laravel", "framework", "kodicms", "cms", "module", "logs"],
+  "authors": [
+    {
+      "name": "Pavel Buchnev",
+      "email": "butschster@gmail.com",
+      "homepage": "http://www.kodicms.com/"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/KodiComponents/module-logs/issues",
+    "forum": "http://www.kodicms.com/forum",
+    "source": "https://github.com/KodiComponents/module-logs"
+  },
+  "autoload": {
+    "psr-4": {
+      "KodiCMS\\Logs\\": "src/"
+    }
+  },
+  "require": {
+    "kodicms/module-loader": "3.*",
+    "kodicms/module-core": "0.*",
+    "arcanedev/log-viewer": "^3.10"
+  }
+}
