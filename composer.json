@@ -24,7 +24,7 @@
   },
   "require": {
     "kodicms/module-loader": "3.*",
-    "kodicms/module-core": "0.*",
+    "kodicms/core": "0.*",
     "arcanedev/log-viewer": "^3.10"
   }
 }
