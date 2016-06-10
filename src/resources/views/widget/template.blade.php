@@ -1,7 +1,7 @@
 <div class="panel panel-success panel-dark dashboard-widget" data-id="{{ $widget->getId() }}">
     <div class="panel-heading">
         <div class="panel-heading-controls" v-if="settings">
-            <button type="button" class="btn btn-default btn-xs" data-icon="times"></button>
+            <button type="button" class="btn btn-default btn-xs" data-icon="times" v-on:click="remove('{{ $widget->getId() }}')"></button>
         </div>
         <div class="panel-title">
           @lang('logs::core.widget.title')
