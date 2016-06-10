@@ -16,9 +16,9 @@ class Logs extends WidgetDashboardAbstract
      */
     protected $size = [
         'x' => 3,
-        'y' => 3,
-        'max_size' => [6, 3],
-        'min_size' => [3, 3],
+        'y' => 2,
+        'max_size' => [6, 2],
+        'min_size' => [3, 2],
     ];
 
     /**
