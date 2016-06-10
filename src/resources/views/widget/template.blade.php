@@ -18,7 +18,7 @@
                     @endif
                     <div class="stat-cell col-xs-4 padding-sm no-padding-hr @if($item['count'] > 0) text-warning @endif">
                         <span class="text-xs">
-                            {!! Html::link(route('log-viewer::logs.list'), $item['name']) !!}
+                            {!! HTML::link(route('log-viewer::logs.list'), $item['name']) !!}
                             <br />
                             <strong>{{ $item['count'] }}</strong>
                         </span>
