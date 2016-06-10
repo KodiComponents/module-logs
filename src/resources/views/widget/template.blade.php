@@ -2,7 +2,7 @@
     <div class="stat-row">
         <div class="stat-cell bg-success">
             <span class="text-lg">Logs</span> <span class="text-sm">Error statistics</span>
-            <button type="button" class="close remove_widget">{!! UI::icon('times') !!}</button>
+            <button type="button" class="close" v-on:click="remove('{{ $widget->getId() }}')" data-icon="times"></button>
         </div>
     </div>
     <div class="stat-row">
